@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 2000px;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imgs/1031.jpg);
+}
+header .layout {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.25);
+    
+}
+header .layout nav {
+    display: flex;
+    background-color: rgba(38, 226, 226,0.5);
+    height: 75px;
+    justify-content: space-between;
+}
+header .layout nav .logo img{ 
+    width: 75px;
+} 
+header .layout nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+header .layout nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header .caption{
+    width: 100%;
+    text-align: center;
+    padding-top: 150px;
+}
+header .caption h1{
+    padding: 10px;
+    font-size: 50px;
+    font-family: monospace;
+}
+header .caption p{
+    width: 50%;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+    color: black;
+    font-size: 18px;
+    font-family: monospace;
+}
+header .caption button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 150px;
+    background-color: rgb(38, 226, 226)
+}
